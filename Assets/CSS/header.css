@@ -1,93 +1,165 @@
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--white-text);
-    transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-text);
+  transition: all 0.2s;
 }
-.header a{
-    color: var(--white-text);
-    z-index: 1;
+.header a {
+  color: var(--white-text);
+  z-index: 1;
 }
 .header .center {
-    width: 100%;
-    /* background: red; */
-    display: flex;
-    align-items: center;
-    z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
 }
 /* site logo  */
-.site-logo{
-    width: 20%;
-    padding-left: 20px;
+.site-logo {
+  width: 20%;
+  padding-left: 20px;
 }
-.site-logo .on{
-    display: none;
-    padding: 2px 0;
+.site-logo .on {
+  display: none;
+  padding: 2px 0;
 }
 /* nav bar menu  */
-.menu{
-    width: 60%;
-    /* background: green; */
-    display: flex;
-    justify-content: center;
+.menu {
+  width: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 .menu ul li {
-    display: inline;
-    padding: 20px 10px;
-    margin: 0px 10px;
+  display: inline;
+  padding: 20px 10px;
+  margin: 0px 10px;
 }
-.menu ul li a:hover{
-    border-bottom: 3px solid #FF6E40;
-    padding:0 0 25px 0;
+.menu ul li a:hover {
+  border-bottom: 3px solid #ff6e40;
+  padding: 0 0 25px 0;
 }
-/* contact us button header btn */
-.header-btn{
-    width: 20%;
-    /* background: yellow; */
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.number {
-    text-align: left;
-    margin-right: 25px;
-    padding: 5px 0 0 0;
-}
-.header-btn button{
-    background: transparent;
-    border: 1px solid #FF6E40;
-    color: var(--white-text);
-    text-transform: uppercase;
-}
-.header-btn button:hover{
-    background: var(--acent-color);
-    border: 1px solid #FF6E40;
-    color: var(--text-color);
-}
-
-
-/* hover effect pn header  */
-.header:hover{
-    background: var(--white);
-    color: var(--text-color);
-}
-.header:hover .of{
+/* mobile menu  */
+.humburger-nav{
     display: none;
 }
-.header:hover .on{
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: var(--white);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: none;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 16px;
+  /* color: #818181; */
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* contact us button header btn */
+.header-btn {
+  width: 20%;
+  /* background: yellow; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number {
+  text-align: left;
+  margin-right: 25px;
+  padding: 5px 0 0 0;
+}
+.header-btn button {
+  background: transparent;
+  border: 1px solid #ff6e40;
+  color: var(--white-text);
+  text-transform: uppercase;
+}
+.header-btn button:hover {
+  background: var(--acent-color);
+  border: 1px solid #ff6e40;
+  color: var(--text-color);
+}
+
+/* hover effect pn header  */
+.header:hover {
+  background: var(--white);
+  color: var(--text-color);
+}
+.header:hover .of {
+  display: none;
+}
+.header:hover .on {
+  display: block;
+}
+.header:hover a {
+  color: var(--text-color);
+}
+.header:hover a:hover {
+  color: var(--link-color-hover);
+}
+.header:hover .header-btn button {
+  background: var(--acent-color);
+  border: 1px solid #ff6e40;
+  color: var(--text-color);
+}
+
+/* laptop  */
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+  .header-btn {
+    text-align: right;
+    width: 80%;
+    justify-content: right;
+    margin: 0 20px;
+  }
+}
+/* mobile  */
+@media screen and (max-width: 490px) {
+  .header-btn {
+    display: none;
+  }
+  .sidenav{
     display: block;
+  }
+  .humburger-nav {
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+    margin-right: 50px;
 }
-.header:hover a{
-    color: var(--text-color);
 }
-.header:hover a:hover{
-    color: var(--link-color-hover);
-}
-.header:hover .header-btn button{
-    background: var(--acent-color);
-    border: 1px solid #FF6E40;
-    color: var(--text-color);
+/* mobile  */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
