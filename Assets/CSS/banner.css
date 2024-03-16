@@ -115,6 +115,9 @@
   .center-heading {
     padding: 0 25px;
   }
+  .main-heading p {
+    line-height: 20px;
+  }
 }
 /* mobile  */
 @media screen and (max-width: 390px) {
