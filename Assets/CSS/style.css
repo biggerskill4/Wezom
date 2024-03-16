@@ -1,0 +1,54 @@
+/* header css */
+@import url("header.css");
+@import url("banner.css");
+
+/* theme colors */
+:root{
+    --primary-color: #FF6E40;
+    --secondary-color: #000;
+    --text-color: #000;
+    --white-text: #fff;
+    --acent-color: #FF6E40;
+    --bg-color: #222222;
+    --black-color: #000;
+    --link-color-hover: #e60606;
+    --white : #fff;
+}
+/* site css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif !important;
+    font-weight: 500;
+}
+body{
+    /* background: var(--bg-color); */
+    color: var(--text-color);
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none !important;
+    transition: all 0.3s;
+}
+a:hover{
+    color: var(--link-color-hover);
+}
+button{
+    background: var(--acent-color);
+    color: var(--black-color);
+    border-radius: 20px;
+    transition: all 0.3s;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+button:hover{
+    background: #F55D2D;
+    color: #fff;
+}
+
+i{
+    color: var(--text-color);
+}

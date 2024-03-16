@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-text);
+    transition: all 0.2s;
+}
+header a{
+    color: var(--white-text);
+    z-index: 1;
+}
+header .center {
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+}
+/* site logo  */
+.site-logo{
+    width: 20%;
+    padding-left: 20px;
+}
+.site-logo .on{
+    display: none;
+    padding: 2px 0;
+}
+/* nav bar menu  */
+.menu{
+    width: 60%;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 20px 10px;
+    margin: 0px 10px;
+}
+.menu ul li a:hover{
+    border-bottom: 3px solid #FF6E40;
+    padding:0 0 25px 0;
+}
+/* contact us button header btn */
+.header-btn{
+    width: 20%;
+    /* background: yellow; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number {
+    text-align: left;
+    margin-right: 25px;
+    padding: 5px 0 0 0;
+}
+.header-btn button{
+    background: transparent;
+    border: 1px solid #FF6E40;
+    color: var(--white-text);
+}
+.header-btn button:hover{
+    background: var(--acent-color);
+    border: 1px solid #FF6E40;
+    color: var(--text-color);
+}
+
+
+/* hover effect pn header  */
+header:hover{
+    background: var(--white);
+    color: var(--text-color);
+}
+header:hover .of{
+    display: none;
+}
+header:hover .on{
+    display: block;
+}
+header:hover a{
+    color: var(--text-color);
+}
+header:hover a:hover{
+    color: var(--link-color-hover);
+}
+header:hover .header-btn button{
+    background: var(--acent-color);
+    border: 1px solid #FF6E40;
+    color: var(--text-color);
+}
