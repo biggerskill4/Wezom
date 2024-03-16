@@ -52,3 +52,22 @@ button:hover{
 i{
     color: var(--text-color);
 }
+
+.col{
+    width: 100%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 33.33%;
+}
+.col-4{
+    width: 25%;
+}
+.col-5{
+    width: 20%;
+}
+.col-6{
+    width: 16.61%;
+}

@@ -1,19 +1,20 @@
-header {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--white-text);
     transition: all 0.2s;
 }
-header a{
+.header a{
     color: var(--white-text);
     z-index: 1;
 }
-header .center {
+.header .center {
     width: 100%;
     /* background: red; */
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 /* site logo  */
 .site-logo{
@@ -59,6 +60,7 @@ header .center {
     background: transparent;
     border: 1px solid #FF6E40;
     color: var(--white-text);
+    text-transform: uppercase;
 }
 .header-btn button:hover{
     background: var(--acent-color);
@@ -68,23 +70,23 @@ header .center {
 
 
 /* hover effect pn header  */
-header:hover{
+.header:hover{
     background: var(--white);
     color: var(--text-color);
 }
-header:hover .of{
+.header:hover .of{
     display: none;
 }
-header:hover .on{
+.header:hover .on{
     display: block;
 }
-header:hover a{
+.header:hover a{
     color: var(--text-color);
 }
-header:hover a:hover{
+.header:hover a:hover{
     color: var(--link-color-hover);
 }
-header:hover .header-btn button{
+.header:hover .header-btn button{
     background: var(--acent-color);
     border: 1px solid #FF6E40;
     color: var(--text-color);

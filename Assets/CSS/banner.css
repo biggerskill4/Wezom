@@ -1,15 +1,10 @@
 /* banner */
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: -75px;
   height: 820px;
-  /* background: var(--black-color); */
   position: relative;
   overflow: hidden;
   color: var(--white-text);
-  z-index: -1;
 }
 .background-clip {
   position: absolute;
@@ -18,4 +13,53 @@
   transform: translate(-50%, -50%);
   z-index: -1;
   width: 100%;
+}
+.upper-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-2 {
+  margin: 100px 0;
+  height: 50px;
+}
+.align-left {
+  margin-left: 20px;
+}
+.align-right {
+  margin-right: 20px;
+  position: relative;
+}
+.mid {
+  position: absolute;
+  right: 0;
+}
+.align-right .mid h3{
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 600;
+}
+.center-heading {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 430px;
+  /* background: red; */
+}
+.main-heading {
+  width: 835px;
+}
+.main-heading h1 {
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -6px;
+}
+.main-heading p {
+    line-height: 26px;
+}
+.bottom {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
 }
