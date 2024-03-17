@@ -39,6 +39,9 @@
   font-size: 36px;
   font-weight: 600;
 }
+.upper-links p {
+  font-size: 14px;
+}
 .center-heading {
   display: flex;
   justify-content: center;
