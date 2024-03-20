@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-<h3><span id="title">
-    Hello World
-</span></h3>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Change text every 3 seconds</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta https-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+        <!-- <div class="animated-heading"> -->
+          <h1>Hi i'm a <span id="h3">Ui / UX Design</span></h1>
+        <!-- </div> -->
 
 
-
-
-<script type="text/javascript">
-    (function () {
-    var title = [
-      "Hello World",
-      "250+",
-      "3500+",
-      "250+"
-    ],
-    i = 0;
-    setInterval(function(){
-      $('#title').fadeOut(function(){
-        $(this).html(words[(i = (i + 1) % title.length)]).fadeIn();
-      });
-    }, 1000)
-  })();
-</script>
-</body>
+    <script type="text/javascript">
+      (function () {
+        var title = ["Ui / UX Design","Photographer","Developer","Youtube","Happy Person" ],
+        i = 0;
+        setInterval(function(){ $('#h3').fadeOut(function(){
+            $(this).html(title[(i = (i + 1) % title.length)]).fadeIn();
+          }); }, 3000)
+      })();
+    </script>
+  </body>
 </html>

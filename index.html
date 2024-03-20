@@ -11,6 +11,9 @@
     <!-- icons cdn -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </head>
   <body>
     <!-- header -->
@@ -39,8 +42,8 @@
           </div>
           <div class="col-2 align-right col-height">
             <div class="mid">
-              <h3><span id="h3">23</span> <ion-icon name="arrow-forward-outline"></ion-icon> </h3>
-              <p id="word">years of experience</p>
+              <h3><span id="h3">23</span> <ion-icon id="arrow" name="arrow-forward-outline"></ion-icon></h3>
+              <p id="words">years of experience</p>
             </div>
           </div>
         </div>
@@ -54,9 +57,9 @@
           </div>
         </div>
         <div class="bottom">
-          <ul>
-            <li>KEY CLIENTS</li>
-          </ul>
+          <p>
+            <ion-icon name="ellipse"></ion-icon>KEY CLIENTS
+          </p>
         </div>
       </div>
     </div>
@@ -64,5 +67,6 @@
     <script src="./Assets/JS/main.js"></script>
     <!-- data fetch -->
     <script src="./Assets/JS/fetch.js"></script>
+  </body>
   </body>
 </html>
