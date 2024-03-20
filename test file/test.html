@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h3><span id="title">
+    Hello World
+</span></h3>
+
+
+
+
+<script type="text/javascript">
+    (function () {
+    var title = [
+      "Hello World",
+      "250+",
+      "3500+",
+      "250+"
+    ],
+    i = 0;
+    setInterval(function(){
+      $('#title').fadeOut(function(){
+        $(this).html(words[(i = (i + 1) % title.length)]).fadeIn();
+      });
+    }, 1000)
+  })();
+</script>
+</body>
+</html>

@@ -4,57 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEZOM</title>
-    <link rel="stylesheet" href="./Assets/CSS/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/fontawesome.min.css" integrity="sha512-XMdRM67MEd014M71RF1DlRotF4JNOmh+H+jxgJmycWwXnzNMIvSQqjHKe3m1dQSOFOhA8kSZtPZJTrMMWUmSfw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/brands.min.css" integrity="sha512-AnVsu0XRByWNCXSPHWIsrMy1tRp7W1s8vFiZybe4FyxfYJTTZmpvFqu1NMQwxWkzpf74SXHFwnLR9k8qUvgSPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css" integrity="sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- favicon  -->
     <link rel="icon" type="image/x-icon" href="/Images/favicon.png">
+    <!-- css  -->
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <!-- icons cdn -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
     <!-- header -->
-    <div class="header">
-      <div class="center">
-        <!-- site-logo  -->
-        <div class="site-logo">
-          <a href="#">
-            <img src="./Images/site-logo.png" alt="" class="of" />
-            <img src="./Images/site-logo-hover.png" alt="" class="on" />
-          </a>
-        </div>
-        <!-- nav links  -->
-        <div class="menu">
-          <ul>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Industries</a></li>
-            <li><a href="#">Case Studies</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contacts</a></li>
-          </ul>
-        </div>
-
-        <!-- mobile menu -->
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
-        </div>
-        <div class="humburger-nav" onclick="openNav()">&#9776;</div>
-        <!-- header button  -->
-        <div class="header-btn">
-          <div class="number"><a href="tel:123456789">+123456879</a></div>
-          <!-- <div class="header-btn"> -->
-          <button type="button">Contact Us</button>
-          <!-- </div> -->
-        </div>
-      </div>
-      </div>
+    <div id="header"></div>
     <!-- </header> -->
-
-    <!-- page start from there  -->
     
     <!-- banner  -->
     <div class="banner">
@@ -71,13 +32,15 @@
         </video>
         <div class="upper-links">
           <div class="col-2 align-left col-height">
-            <i class="fa-play"></i>
-            <p>SHOWREEL</p>
+            <a href="#">
+            <p><ion-icon name="play"></ion-icon>
+            SHOWREEL</p>
+          </a>
           </div>
           <div class="col-2 align-right col-height">
             <div class="mid">
-              <h3>23 <i class="fa-facebook-f"></i></h3>
-              <p>years of experience</p>
+              <h3><span id="h3">23</span> <ion-icon name="arrow-forward-outline"></ion-icon> </h3>
+              <p id="word">years of experience</p>
             </div>
           </div>
         </div>
@@ -99,5 +62,7 @@
     </div>
 
     <script src="./Assets/JS/main.js"></script>
+    <!-- data fetch -->
+    <script src="./Assets/JS/fetch.js"></script>
   </body>
 </html>

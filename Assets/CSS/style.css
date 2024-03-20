@@ -71,3 +71,8 @@ button:hover{
 .col-6{
     width: 16.61%;
 }
+
+/* icon  */
+ion-icon{
+    font-size: 30px;
+}

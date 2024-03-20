@@ -93,15 +93,32 @@
   padding: 5px 0 0 0;
 }
 .header-btn button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 20px;
   background: transparent;
   border: 1px solid #ff6e40;
   color: var(--white-text);
-  text-transform: uppercase;
 }
 .header-btn button:hover {
   background: var(--acent-color);
   border: 1px solid #ff6e40;
   color: var(--text-color);
+}
+.header-btn .label-up {
+  display:block;
+  height:100%;
+  position:relative;
+  top:0%;
+  transition: 0.2s;
+}
+.header-btn button:hover .label-up {
+  top:-100%;
 }
 
 /* hover effect pn header  */
@@ -126,6 +143,7 @@
   border: 1px solid #ff6e40;
   color: var(--text-color);
 }
+
 
 /* laptop  */
 @media screen and (max-width: 1200px) {
