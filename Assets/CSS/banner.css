@@ -1,7 +1,7 @@
 /* banner */
 .banner {
   margin-top: -75px;
-  height: 820px;
+  height: 90vh;
   position: relative;
   overflow: hidden;
   color: var(--white-text);
