@@ -12,7 +12,7 @@
 
   /* Background Colors */
   --color-bg: #FFFFFF;
-  --color-bg-alt: #F7F7F7;
+  --color-bg-alt: #F3F3F3;
   --color-bg-dark: #0F0F0F;
 
   /* Text Colors */
@@ -42,7 +42,7 @@
   /* Font Family */
   --heading-font: 'Manrope', sans-serif;
   --body-font: 'Manrope', sans-serif;
-  --button-font: "IBM Plex Sans", sans-serif;
+  --button-font: "IBM Plex Mono", sans-serif;
 
 }
 

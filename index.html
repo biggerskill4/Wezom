@@ -11,13 +11,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&display=swap"
         rel="stylesheet">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -45,7 +50,8 @@
             <div class="menu flex">
                 <ul class="flex">
                     <li><a href="#">Services <i class="fa-solid fa-chevron-down dropdown-arrow"></i></a></li>
-                    <li><a href="#">Industries & Solutions <i class="fa-solid fa-chevron-down dropdown-arrow"></i></a></li>
+                    <li><a href="#">Industries & Solutions <i class="fa-solid fa-chevron-down dropdown-arrow"></i></a>
+                    </li>
                     <li><a href="#">Case Studies</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Blog</a></li>
@@ -77,9 +83,39 @@
         <!-- content -->
         <div class="container flex">
             <div class="main-content flex-col">
-                <h1>Software Delivery Driving Business Growth</h1>
+                <h1>Software Delivery<br>Driving Business<br>Growth</h1>
                 <p>Partner with dedicated IT experts who ‘get’ your business</p>
+
+                <div class="hero-btn">
+                    <a class="hero-cta flex-col" href="#">
+                        <span class="hero-cta-icon"><svg
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv" focusable="false"
+                                aria-hidden="true" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                </path>
+                            </svg><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c66dff51c x-vubbuv"
+                                focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                </path>
+                            </svg></span>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+
             </div>
+            <div class="video-popup">
+                <i class="fa-solid fa-play playBtn">
+                    <span></span>
+                </i>
+                <span>Showreel</span>
+            </div>
+            <div class="icon-list">
+                <div class="icon-circle"></div>
+                <span class="text-list">Key Clients</span>
+            </div>
+
         </div>
     </section>
     <!-- End Hero -->
