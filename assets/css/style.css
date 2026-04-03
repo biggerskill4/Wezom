@@ -127,3 +127,66 @@ h6 {
 .cta:hover span.cta-text {
   transform: translateY(-100%);
 }
+
+
+
+.arrow-animated {
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.arrow-animated svg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+  fill: var(--color-primary);
+}
+
+
+.arrow-animated svg:nth-child(2) {
+  position: absolute;
+  top: 100%;
+  right: 100%;
+}
+
+
+.arrow-animated:hover svg {
+  transform: translate(100%, -100%);
+}
+
+.arrow-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid var(--color-primary-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.arrow-bg .arrow-animated {
+  width: 15px;
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+.arrow-bg:hover svg {
+  transform: translate(100%, -100%);
+}
+
+.arrow-bg:hover {
+  transform: scale(1.1);
+  background: var(--color-primary-dark);
+}

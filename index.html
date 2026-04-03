@@ -19,10 +19,8 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Ionicons -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -49,13 +47,255 @@
             </div>
             <div class="menu flex">
                 <ul class="flex">
-                    <li><a href="#">Services <i class="fa-solid fa-chevron-down dropdown-arrow"></i></a></li>
-                    <li><a href="#">Industries & Solutions <i class="fa-solid fa-chevron-down dropdown-arrow"></i></a>
+                    <li><a href="#" class="nav-link">Services <i
+                                class="fa-solid fa-chevron-down dropdown-arrow"></i></a>
+
+                        <div class="dropdown flex">
+                            <div class="dropdown-col">
+                                <div class="dropdown-card">
+                                    <img src="./assets/images/header-services-1x.webp" class="dropdown-img"
+                                        alt="Dropdown Image">
+                                    <div class="card-info">
+                                        <a href="#">
+                                            <span>Technologies</span>
+                                            <div class="arrow-bg">
+                                                <span class="arrow-animated">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="card-icons">
+                                        <img src="./assets/images/icons/py.svg" alt="python">
+                                        <img src="./assets/images/icons/scala.svg" alt="scala">
+                                        <img src="./assets/images/icons/whale.svg" alt="whale">
+                                        <img src="./assets/images/icons/aws.svg" alt="aws">
+                                        <img src="./assets/images/icons/cloud.svg" alt="cloud">
+                                        <img src="./assets/images/icons/cell.svg" alt="cell">
+                                        <img src="./assets/images/icons/dolphin.svg" alt="dolphin">
+                                        <img src="./assets/images/icons/m.svg" alt="m">
+                                        <img src="./assets/images/icons/bird.svg" alt="bird">
+                                        <img src="./assets/images/icons/geometry.svg" alt="geometry">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown-col">
+                                <div class="dropdown-links">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            <div class="arrow-bg">
+                                                <span class="arrow-animated">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <span>Software</span>
+                                        </a>
+                                    </div>
+                                    <ul class="dropdown-list">
+                                        <li><a href="#">IT Consulting</a></li>
+                                        <li><a href="#">Product Development</a></li>
+                                        <li><a href="#">MVP Development</a></li>
+                                        <li><a href="#">ERP Software</a></li>
+                                        <li><a href="#">Dedicated Team</a></li>
+                                        <li><a href="#">CRM Development</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-links">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            <div class="arrow-bg">
+                                                <span class="arrow-animated">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <span>Data Science & AI</span>
+                                        </a>
+                                    </div>
+                                    <ul class="dropdown-list">
+                                        <li><a href="#">AWS & Cloud</a></li>
+                                        <li><a href="#">Big Data Solutions</a></li>
+                                        <li><a href="#">DevOps Services</a></li>
+                                        <li><a href="#">IoT Development</a></li>
+                                        <li><a href="#">Artificial Intelligence</a></li>
+                                        <li><a href="#">NFT Marketplace</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-col">
+                                <div class="dropdown-links">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            <div class="arrow-bg">
+                                                <span class="arrow-animated">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <span>Web Development</span>
+                                        </a>
+                                    </div>
+                                    <ul class="dropdown-list">
+                                        <li><a href="#">Web Applications</a></li>
+                                        <li><a href="#">Progressive Web Applications</a></li>
+                                        <li><a href="#">Single Page Application</a></li>
+                                        <li><a href="#">Web Portals</a></li>
+                                        <li><a href="#">Corporate Websites</a></li>
+                                        <li><a href="#">Marketplaces</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-links">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            <div class="arrow-bg">
+                                                <span class="arrow-animated">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <span>QA & Software Testing</span>
+                                        </a>
+                                    </div>
+                                    <ul class="dropdown-list">
+                                        <li><a href="#">Test Automation</a></li>
+                                        <li><a href="#">Cybersecurity</a></li>
+                                        <li><a href="#">Functional Testing</a></li>
+                                        <li><a href="#">Performance Testing</a></li>
+                                        <li><a href="#">Mobile App Testing</a></li>
+                                        <li><a href="#">QA Consulting</a></li>
+                                        <li><a href="#">Load Testing Services</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-col">
+                                <div class="dropdown-links">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            <div class="arrow-bg">
+                                                <span class="arrow-animated">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <span>Mobile App Development</span>
+                                        </a>
+                                    </div>
+                                    <ul class="dropdown-list">
+                                        <li><a href="#">iOS App</a></li>
+                                        <li><a href="#">Android App</a></li>
+                                        <li><a href="#">Flutter</a></li>
+                                        <li><a href="#">Cross-platform</a></li>
+                                        <li><a href="#">AR/VR App Development</a></li>
+                                        <li><a href="#">Wearable Solutions</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-links">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            <div class="arrow-bg">
+                                                <span class="arrow-animated">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                                        focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <span>UX/UI Design</span>
+                                        </a>
+                                    </div>
+                                    <ul class="dropdown-list">
+                                        <li><a href="#">UX Review</a></li>
+                                        <li><a href="#">Product Design</a></li>
+                                        <li><a href="#">Rapid UX Prototyping</a></li>
+                                        <li><a href="#">Mobile App Design</a></li>
+                                        <li><a href="#">Web Design Services</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#" class="nav-link">Industries & Solutions <i
+                                class="fa-solid fa-chevron-down dropdown-arrow"></i></a>
+                    </li>
+                    <li><a href="#" class="nav-link">Case Studies</a></li>
+                    <li><a href="#" class="nav-link">About Us</a></li>
+                    <li><a href="#" class="nav-link">Blog</a></li>
+                    <li><a href="#" class="nav-link">Contacts</a></li>
                 </ul>
             </div>
             <div class="header-btn flex">
@@ -88,8 +328,8 @@
 
                 <div class="hero-btn">
                     <a class="hero-cta flex-col" href="#">
-                        <span class="hero-cta-icon"><svg
-                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv" focusable="false"
+                        <span class="hero-cta-icon">
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv" focusable="false"
                                 aria-hidden="true" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
@@ -99,28 +339,110 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
                                 </path>
-                            </svg></span>
+                            </svg>
+                        </span>
                         <span>Get Started</span>
                     </a>
                 </div>
-
             </div>
+
             <div class="video-popup">
                 <i class="fa-solid fa-play playBtn">
                     <span></span>
                 </i>
                 <span>Showreel</span>
             </div>
+
             <div class="icon-list">
                 <div class="icon-circle"></div>
                 <span class="text-list">Key Clients</span>
+            </div>
+
+            <div class="experience-list">
+
+                <div class="swiper myHeroSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="exp">
+                                <span class="exp-number">
+                                    <span class="number fade-up">26+</span>
+                                    <span class="arrow-animated">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                            focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                            </path>
+                                        </svg>
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                            focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <span class="exp-text fade-up">Years of Experience</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="exp">
+                                <span class="exp-number">
+                                    <span class="number fade-up">275+</span>
+                                    <span class="arrow-animated">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                            focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                            </path>
+                                        </svg>
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                            focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <span class="exp-text fade-up">Full-time professionals on staff</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="exp">
+                                <span class="exp-number">
+                                    <span class="number fade-up">3500+</span>
+                                    <span class="arrow-animated">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                            focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                            </path>
+                                        </svg>
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium _c1880d696 x-vubbuv"
+                                            focusable="false" aria-hidden="true" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.9998 15.0003V1V0H14.9998H0.9998L0.999801 2L12.5861 2L0.292969 14.2931L1.70718 15.7074L13.9998 3.41474V15.0003H15.9998Z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <span class="exp-text fade-up">Implemented projects in IT</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
             </div>
 
         </div>
     </section>
     <!-- End Hero -->
 
-
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
