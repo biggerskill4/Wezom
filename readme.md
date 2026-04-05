@@ -43,7 +43,6 @@ It is purely for **practice, learning, and showcasing skills**.
 ## 👨‍💻 Author
 
 **Subhan Ahmed**  
-Frontend Developer (WordPress + JavaScript)
 
 ---
 
