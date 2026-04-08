@@ -42,7 +42,7 @@ It is purely for **practice, learning, and showcasing skills**.
 
 ## 👨‍💻 Author
 
-**Subhan Ahmed** 
+**Subhan Ahmed**  
 (Web Developer)
 
 ---
