@@ -19,8 +19,8 @@ The goal of this project is to improve my frontend development skills by recreat
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
-- GSAP (Smooth Animation)
+- JavaScript
+- GSAP
 
 ---
 
