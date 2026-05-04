@@ -17,7 +17,7 @@ The goal of this project is to improve my frontend development skills by recreat
 
 ## 🛠️ Tech Stack
 
-- HTML5
+- HTML5 (Structure Layout)
 - CSS3 (Styling)
 - JavaScript (Vanilla JS)
 - GSAP (Animation)
