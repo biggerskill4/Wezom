@@ -1,5 +1,4 @@
-# WEZOM (Practice Project)
-
+# WEZOM
 This project is a **frontend practice clone** of the WEZOM website homepage.
 
 ⚠️ **Disclaimer**
